@@ -1,0 +1,13 @@
+{
+  "name": "epam-auto-tests-js",
+  "version": "1.0.0",
+  "description": "practical tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Vira Harasymiv",
+  "license": "ISC",
+  "type": "commonjs"
+}
