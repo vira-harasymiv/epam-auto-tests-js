@@ -22,7 +22,7 @@ class NumbersValidator {
   getEvenNumbersFromArray(arrayOfNumbers) {
     // Check if the input is an array and if every item is of type number
     if (Array.isArray(arrayOfNumbers) && arrayOfNumbers.every(item => typeof item === 'number')) {
-      // Use the filter method to apply isNumberEven on each element 
+      // Use the filter method to apply isNumberEven on each element
       // and return an array of even numbers
       return arrayOfNumbers.filter(this.isNumberEven);
     }

@@ -5,9 +5,9 @@
     "passes": 13,
     "pending": 0,
     "failures": 0,
-    "start": "2026-11-16T23:10:45.068Z",
-    "end": "2026-11-16T23:10:45.091Z",
-    "duration": 23,
+    "start": "2026-11-16T23:49:47.360Z",
+    "end": "2026-11-16T23:49:47.378Z",
+    "duration": 18,
     "testsRegistered": 13,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "c40f4bd5-c4c3-4bd2-9da1-55a1b98215d8",
+      "uuid": "09bfdf87-a15e-4a2e-868e-a2821c096141",
       "title": "",
       "fullFile": "C:\\Users\\Vira\\Documents\\QA\\EPAM\\epam-js-tests\\test\\numbers-validator\\isNumberEven.spec.js",
       "file": "\\test\\numbers-validator\\isNumberEven.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "e1bbaac0-0b07-4764-a885-041ead15d2a4",
+          "uuid": "c580bf41-9b99-4bef-b49e-e7a1bf37f5d0",
           "title": "isNumberEven tests",
           "fullFile": "C:\\Users\\Vira\\Documents\\QA\\EPAM\\epam-js-tests\\test\\numbers-validator\\isNumberEven.spec.js",
           "file": "\\test\\numbers-validator\\isNumberEven.spec.js",
@@ -45,8 +45,8 @@
               "context": null,
               "code": "validator = new NumbersValidator();",
               "err": {},
-              "uuid": "12bd8e57-d3ec-4797-98eb-79d2af56ed74",
-              "parentUUID": "e1bbaac0-0b07-4764-a885-041ead15d2a4",
+              "uuid": "fb5ca17b-65c5-47dd-a47e-ea27efa09d6f",
+              "parentUUID": "c580bf41-9b99-4bef-b49e-e7a1bf37f5d0",
               "isHook": true,
               "skipped": false
             }
@@ -65,8 +65,8 @@
               "context": null,
               "code": "validator = null;",
               "err": {},
-              "uuid": "8f7fbc0e-5e9a-4f9d-a4f1-ae29b860fb72",
-              "parentUUID": "e1bbaac0-0b07-4764-a885-041ead15d2a4",
+              "uuid": "fc1b7ab2-7909-4897-ac50-8f7dfcd41809",
+              "parentUUID": "c580bf41-9b99-4bef-b49e-e7a1bf37f5d0",
               "isHook": true,
               "skipped": false
             }
@@ -74,7 +74,7 @@
           "tests": [],
           "suites": [
             {
-              "uuid": "32e7ddb5-64dd-4c06-9ab1-a748c0e80582",
+              "uuid": "4bc71284-44e6-405b-98f2-9d0c8f7646f4",
               "title": "isNumberEven method",
               "fullFile": "C:\\Users\\Vira\\Documents\\QA\\EPAM\\epam-js-tests\\test\\numbers-validator\\isNumberEven.spec.js",
               "file": "\\test\\numbers-validator\\isNumberEven.spec.js",
@@ -83,7 +83,7 @@
               "tests": [],
               "suites": [
                 {
-                  "uuid": "a49545ec-f4fb-4c27-9009-03ed4442c0e6",
+                  "uuid": "6fec273f-fcc7-4b90-9fbb-daec6c60de9b",
                   "title": "positive tests",
                   "fullFile": "C:\\Users\\Vira\\Documents\\QA\\EPAM\\epam-js-tests\\test\\numbers-validator\\isNumberEven.spec.js",
                   "file": "\\test\\numbers-validator\\isNumberEven.spec.js",
@@ -103,15 +103,15 @@
                       "context": null,
                       "code": "const validationResults = validator.isNumberEven(4);\nexpect(validationResults).to.be.equal(true);",
                       "err": {},
-                      "uuid": "9718490a-71a8-48a0-99ff-44c80a5bfebb",
-                      "parentUUID": "a49545ec-f4fb-4c27-9009-03ed4442c0e6",
+                      "uuid": "d4572ed1-a7bd-41b0-8725-4ba880e3cc76",
+                      "parentUUID": "6fec273f-fcc7-4b90-9fbb-daec6c60de9b",
                       "isHook": false,
                       "skipped": false
                     }
                   ],
                   "suites": [],
                   "passes": [
-                    "9718490a-71a8-48a0-99ff-44c80a5bfebb"
+                    "d4572ed1-a7bd-41b0-8725-4ba880e3cc76"
                   ],
                   "failures": [],
                   "pending": [],
@@ -122,7 +122,7 @@
                   "_timeout": 2000
                 },
                 {
-                  "uuid": "596b7967-3d0a-48a1-93c9-7c2697be3463",
+                  "uuid": "1cb0c617-7b01-476f-87e1-59d4da69cee9",
                   "title": "negative tests",
                   "fullFile": "C:\\Users\\Vira\\Documents\\QA\\EPAM\\epam-js-tests\\test\\numbers-validator\\isNumberEven.spec.js",
                   "file": "\\test\\numbers-validator\\isNumberEven.spec.js",
@@ -142,8 +142,8 @@
                       "context": null,
                       "code": "const validationResults = validator.isNumberEven(5);\nexpect(validationResults).to.be.equal(false);",
                       "err": {},
-                      "uuid": "379899ad-f696-4a83-951c-78fe5c80af4c",
-                      "parentUUID": "596b7967-3d0a-48a1-93c9-7c2697be3463",
+                      "uuid": "765560cb-cd17-41f5-9d5d-042bc81fd947",
+                      "parentUUID": "1cb0c617-7b01-476f-87e1-59d4da69cee9",
                       "isHook": false,
                       "skipped": false
                     },
@@ -158,18 +158,18 @@
                       "fail": false,
                       "pending": false,
                       "context": null,
-                      "code": "for (const notNumber of arrayOfNotNumbers){\n    expect(() => {\n        validator.isNumberEven(notNumber);\n    }).to.throw(`[${notNumber}] is not of type \"Number\" it is of type \"${typeof notNumber}\"`)\n}",
+                      "code": "arrayOfNotNumbers.forEach((notNumber) => {\n  expect(() => {\n    validator.isNumberEven(notNumber);\n  }).to.throw(`[${notNumber}] is not of type \"Number\" it is of type \"${typeof notNumber}\"`);\n});",
                       "err": {},
-                      "uuid": "5dcb032b-6ad7-430b-b672-c990daf1955e",
-                      "parentUUID": "596b7967-3d0a-48a1-93c9-7c2697be3463",
+                      "uuid": "9144727f-fa30-48da-b9b0-ef78f5e4841d",
+                      "parentUUID": "1cb0c617-7b01-476f-87e1-59d4da69cee9",
                       "isHook": false,
                       "skipped": false
                     }
                   ],
                   "suites": [],
                   "passes": [
-                    "379899ad-f696-4a83-951c-78fe5c80af4c",
-                    "5dcb032b-6ad7-430b-b672-c990daf1955e"
+                    "765560cb-cd17-41f5-9d5d-042bc81fd947",
+                    "9144727f-fa30-48da-b9b0-ef78f5e4841d"
                   ],
                   "failures": [],
                   "pending": [],
@@ -190,7 +190,7 @@
               "_timeout": 2000
             },
             {
-              "uuid": "f240dd24-4e50-44af-8a5a-775ca2ba0231",
+              "uuid": "dd0baf0a-f5cc-4b21-99c2-6bce1e54ec6e",
               "title": "isInteger method",
               "fullFile": "C:\\Users\\Vira\\Documents\\QA\\EPAM\\epam-js-tests\\test\\numbers-validator\\isNumberEven.spec.js",
               "file": "\\test\\numbers-validator\\isNumberEven.spec.js",
@@ -199,7 +199,7 @@
               "tests": [],
               "suites": [
                 {
-                  "uuid": "bce50fb1-af78-4809-8916-1b11e17a8b17",
+                  "uuid": "005f758f-bc63-4712-b1ed-654e756ce08b",
                   "title": "positive tests",
                   "fullFile": "C:\\Users\\Vira\\Documents\\QA\\EPAM\\epam-js-tests\\test\\numbers-validator\\isNumberEven.spec.js",
                   "file": "\\test\\numbers-validator\\isNumberEven.spec.js",
@@ -219,15 +219,15 @@
                       "context": null,
                       "code": "const validationResult = validator.isInteger(9);\nexpect(validationResult).to.be.equal(true);",
                       "err": {},
-                      "uuid": "d69d2d68-4605-49b2-aeb3-22318697a3e8",
-                      "parentUUID": "bce50fb1-af78-4809-8916-1b11e17a8b17",
+                      "uuid": "463f118d-3b26-4a28-8c72-eee397d68dda",
+                      "parentUUID": "005f758f-bc63-4712-b1ed-654e756ce08b",
                       "isHook": false,
                       "skipped": false
                     }
                   ],
                   "suites": [],
                   "passes": [
-                    "d69d2d68-4605-49b2-aeb3-22318697a3e8"
+                    "463f118d-3b26-4a28-8c72-eee397d68dda"
                   ],
                   "failures": [],
                   "pending": [],
@@ -238,7 +238,7 @@
                   "_timeout": 2000
                 },
                 {
-                  "uuid": "f860826e-bba2-45af-b4a9-01efab085c69",
+                  "uuid": "44b4257c-d239-4f9c-b948-d6e918d57eee",
                   "title": "negative tests",
                   "fullFile": "C:\\Users\\Vira\\Documents\\QA\\EPAM\\epam-js-tests\\test\\numbers-validator\\isNumberEven.spec.js",
                   "file": "\\test\\numbers-validator\\isNumberEven.spec.js",
@@ -258,8 +258,8 @@
                       "context": null,
                       "code": "const validationResult = validator.isInteger(8.999);\nexpect(validationResult).to.be.equal(false);",
                       "err": {},
-                      "uuid": "595785d3-7e0e-4fe9-9bf7-803c228c357c",
-                      "parentUUID": "f860826e-bba2-45af-b4a9-01efab085c69",
+                      "uuid": "984f3f08-eda6-4da7-a862-6665834647fe",
+                      "parentUUID": "44b4257c-d239-4f9c-b948-d6e918d57eee",
                       "isHook": false,
                       "skipped": false
                     },
@@ -267,83 +267,6 @@
                       "title": "should throw an error if a number is not a number",
                       "fullTitle": "isNumberEven tests isInteger method negative tests should throw an error if a number is not a number",
                       "timedOut": false,
-                      "duration": 1,
-                      "state": "passed",
-                      "speed": "fast",
-                      "pass": true,
-                      "fail": false,
-                      "pending": false,
-                      "context": null,
-                      "code": "for(const notNumber of arrayOfNotNumbers){\n    expect(() => {\n        validator.isInteger(notNumber);\n    }).to.throw(`[${notNumber}] is not a number`)\n}",
-                      "err": {},
-                      "uuid": "07937c01-05e2-41b1-afbb-d3033779f0be",
-                      "parentUUID": "f860826e-bba2-45af-b4a9-01efab085c69",
-                      "isHook": false,
-                      "skipped": false
-                    }
-                  ],
-                  "suites": [],
-                  "passes": [
-                    "595785d3-7e0e-4fe9-9bf7-803c228c357c",
-                    "07937c01-05e2-41b1-afbb-d3033779f0be"
-                  ],
-                  "failures": [],
-                  "pending": [],
-                  "skipped": [],
-                  "duration": 1,
-                  "root": false,
-                  "rootEmpty": false,
-                  "_timeout": 2000
-                }
-              ],
-              "passes": [],
-              "failures": [],
-              "pending": [],
-              "skipped": [],
-              "duration": 0,
-              "root": false,
-              "rootEmpty": false,
-              "_timeout": 2000
-            },
-            {
-              "uuid": "bf06dbba-29c2-4d78-b6e0-51c44dea549b",
-              "title": "getEvenNumbersFromArray method",
-              "fullFile": "C:\\Users\\Vira\\Documents\\QA\\EPAM\\epam-js-tests\\test\\numbers-validator\\isNumberEven.spec.js",
-              "file": "\\test\\numbers-validator\\isNumberEven.spec.js",
-              "beforeHooks": [],
-              "afterHooks": [],
-              "tests": [],
-              "suites": [
-                {
-                  "uuid": "d1a3d110-ca2f-49e8-8de7-91d435a7107a",
-                  "title": "positive tests",
-                  "fullFile": "C:\\Users\\Vira\\Documents\\QA\\EPAM\\epam-js-tests\\test\\numbers-validator\\isNumberEven.spec.js",
-                  "file": "\\test\\numbers-validator\\isNumberEven.spec.js",
-                  "beforeHooks": [],
-                  "afterHooks": [],
-                  "tests": [
-                    {
-                      "title": "should return only even numbers from the array",
-                      "fullTitle": "isNumberEven tests getEvenNumbersFromArray method positive tests should return only even numbers from the array",
-                      "timedOut": false,
-                      "duration": 1,
-                      "state": "passed",
-                      "speed": "fast",
-                      "pass": true,
-                      "fail": false,
-                      "pending": false,
-                      "context": null,
-                      "code": "const validationResults = validator.getEvenNumbersFromArray([1, 2, 3, 4, 5, 6, 7, 8]);\nexpect(validationResults).to.deep.equal([2, 4, 6, 8]);",
-                      "err": {},
-                      "uuid": "1bb0224d-5dc3-4b07-aa49-b7d4d5a3d1f9",
-                      "parentUUID": "d1a3d110-ca2f-49e8-8de7-91d435a7107a",
-                      "isHook": false,
-                      "skipped": false
-                    },
-                    {
-                      "title": "should return an empty array if all numbers are odd",
-                      "fullTitle": "isNumberEven tests getEvenNumbersFromArray method positive tests should return an empty array if all numbers are odd",
-                      "timedOut": false,
                       "duration": 0,
                       "state": "passed",
                       "speed": "fast",
@@ -351,76 +274,18 @@
                       "fail": false,
                       "pending": false,
                       "context": null,
-                      "code": "const validationResults = validator.getEvenNumbersFromArray([1, 3, 5, 7]);\nexpect(validationResults).to.deep.equal([]);",
+                      "code": "arrayOfNotNumbers.forEach((notNumber) => {\n  expect(() => {\n    validator.isInteger(notNumber);\n  }).to.throw(`[${notNumber}] is not a number`);\n});",
                       "err": {},
-                      "uuid": "f66e4b5f-d071-4e75-9238-d0372271d6b8",
-                      "parentUUID": "d1a3d110-ca2f-49e8-8de7-91d435a7107a",
+                      "uuid": "f62ee16b-bee0-4101-b840-1314a7aec224",
+                      "parentUUID": "44b4257c-d239-4f9c-b948-d6e918d57eee",
                       "isHook": false,
                       "skipped": false
                     }
                   ],
                   "suites": [],
                   "passes": [
-                    "1bb0224d-5dc3-4b07-aa49-b7d4d5a3d1f9",
-                    "f66e4b5f-d071-4e75-9238-d0372271d6b8"
-                  ],
-                  "failures": [],
-                  "pending": [],
-                  "skipped": [],
-                  "duration": 1,
-                  "root": false,
-                  "rootEmpty": false,
-                  "_timeout": 2000
-                },
-                {
-                  "uuid": "8674ce6d-941c-471f-a29b-014780d025fc",
-                  "title": "negative tests",
-                  "fullFile": "C:\\Users\\Vira\\Documents\\QA\\EPAM\\epam-js-tests\\test\\numbers-validator\\isNumberEven.spec.js",
-                  "file": "\\test\\numbers-validator\\isNumberEven.spec.js",
-                  "beforeHooks": [],
-                  "afterHooks": [],
-                  "tests": [
-                    {
-                      "title": "should throw an error when provided not an array",
-                      "fullTitle": "isNumberEven tests getEvenNumbersFromArray method negative tests should throw an error when provided not an array",
-                      "timedOut": false,
-                      "duration": 0,
-                      "state": "passed",
-                      "speed": "fast",
-                      "pass": true,
-                      "fail": false,
-                      "pending": false,
-                      "context": null,
-                      "code": "for (const notArray of invalidArrays){\n    expect(() => {\n        validator.getEvenNumbersFromArray(notArray);\n    }).to.throw(`[${notArray}] is not an array of \"Numbers\"`)\n}",
-                      "err": {},
-                      "uuid": "4bb56abc-48aa-4e6b-8571-974b0157f8e9",
-                      "parentUUID": "8674ce6d-941c-471f-a29b-014780d025fc",
-                      "isHook": false,
-                      "skipped": false
-                    },
-                    {
-                      "title": "should throw an error when the array has a non number",
-                      "fullTitle": "isNumberEven tests getEvenNumbersFromArray method negative tests should throw an error when the array has a non number",
-                      "timedOut": false,
-                      "duration": 0,
-                      "state": "passed",
-                      "speed": "fast",
-                      "pass": true,
-                      "fail": false,
-                      "pending": false,
-                      "context": null,
-                      "code": "for (const invalidArray of arraysWithNonNumberEl){\n    expect(() => {\n        validator.getEvenNumbersFromArray(invalidArray);\n    }).to.throw(`[${invalidArray}] is not an array of \"Numbers\"`);\n}",
-                      "err": {},
-                      "uuid": "cdbe175b-ad44-4787-aba9-3213da048f25",
-                      "parentUUID": "8674ce6d-941c-471f-a29b-014780d025fc",
-                      "isHook": false,
-                      "skipped": false
-                    }
-                  ],
-                  "suites": [],
-                  "passes": [
-                    "4bb56abc-48aa-4e6b-8571-974b0157f8e9",
-                    "cdbe175b-ad44-4787-aba9-3213da048f25"
+                    "984f3f08-eda6-4da7-a862-6665834647fe",
+                    "f62ee16b-bee0-4101-b840-1314a7aec224"
                   ],
                   "failures": [],
                   "pending": [],
@@ -441,7 +306,142 @@
               "_timeout": 2000
             },
             {
-              "uuid": "67fd11c9-8b41-4636-a739-087f705055af",
+              "uuid": "795a33ca-3093-4758-8412-732b71f7f96c",
+              "title": "getEvenNumbersFromArray method",
+              "fullFile": "C:\\Users\\Vira\\Documents\\QA\\EPAM\\epam-js-tests\\test\\numbers-validator\\isNumberEven.spec.js",
+              "file": "\\test\\numbers-validator\\isNumberEven.spec.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [],
+              "suites": [
+                {
+                  "uuid": "558c7da3-68e6-453e-a023-7da138ac58ed",
+                  "title": "positive tests",
+                  "fullFile": "C:\\Users\\Vira\\Documents\\QA\\EPAM\\epam-js-tests\\test\\numbers-validator\\isNumberEven.spec.js",
+                  "file": "\\test\\numbers-validator\\isNumberEven.spec.js",
+                  "beforeHooks": [],
+                  "afterHooks": [],
+                  "tests": [
+                    {
+                      "title": "should return only even numbers from the array",
+                      "fullTitle": "isNumberEven tests getEvenNumbersFromArray method positive tests should return only even numbers from the array",
+                      "timedOut": false,
+                      "duration": 0,
+                      "state": "passed",
+                      "speed": "fast",
+                      "pass": true,
+                      "fail": false,
+                      "pending": false,
+                      "context": null,
+                      "code": "const validationResults = validator.getEvenNumbersFromArray([1, 2, 3, 4, 5, 6, 7, 8]);\nexpect(validationResults).to.deep.equal([2, 4, 6, 8]);",
+                      "err": {},
+                      "uuid": "95e5bb71-0420-49f2-a59d-f9f8ecd5495f",
+                      "parentUUID": "558c7da3-68e6-453e-a023-7da138ac58ed",
+                      "isHook": false,
+                      "skipped": false
+                    },
+                    {
+                      "title": "should return an empty array if all numbers are odd",
+                      "fullTitle": "isNumberEven tests getEvenNumbersFromArray method positive tests should return an empty array if all numbers are odd",
+                      "timedOut": false,
+                      "duration": 0,
+                      "state": "passed",
+                      "speed": "fast",
+                      "pass": true,
+                      "fail": false,
+                      "pending": false,
+                      "context": null,
+                      "code": "const validationResults = validator.getEvenNumbersFromArray([1, 3, 5, 7]);\nexpect(validationResults).to.deep.equal([]);",
+                      "err": {},
+                      "uuid": "246bc887-ae8b-4a87-a493-774ee4c9aa19",
+                      "parentUUID": "558c7da3-68e6-453e-a023-7da138ac58ed",
+                      "isHook": false,
+                      "skipped": false
+                    }
+                  ],
+                  "suites": [],
+                  "passes": [
+                    "95e5bb71-0420-49f2-a59d-f9f8ecd5495f",
+                    "246bc887-ae8b-4a87-a493-774ee4c9aa19"
+                  ],
+                  "failures": [],
+                  "pending": [],
+                  "skipped": [],
+                  "duration": 0,
+                  "root": false,
+                  "rootEmpty": false,
+                  "_timeout": 2000
+                },
+                {
+                  "uuid": "23a0a50d-3114-4e5c-a3db-d5f2ebbfa625",
+                  "title": "negative tests",
+                  "fullFile": "C:\\Users\\Vira\\Documents\\QA\\EPAM\\epam-js-tests\\test\\numbers-validator\\isNumberEven.spec.js",
+                  "file": "\\test\\numbers-validator\\isNumberEven.spec.js",
+                  "beforeHooks": [],
+                  "afterHooks": [],
+                  "tests": [
+                    {
+                      "title": "should throw an error when provided not an array",
+                      "fullTitle": "isNumberEven tests getEvenNumbersFromArray method negative tests should throw an error when provided not an array",
+                      "timedOut": false,
+                      "duration": 0,
+                      "state": "passed",
+                      "speed": "fast",
+                      "pass": true,
+                      "fail": false,
+                      "pending": false,
+                      "context": null,
+                      "code": "invalidArrays.forEach((notArray) => {\n  expect(() => {\n    validator.getEvenNumbersFromArray(notArray);\n  }).to.throw(`[${notArray}] is not an array of \"Numbers\"`);\n});",
+                      "err": {},
+                      "uuid": "8a994ce6-d708-4ca9-9fc2-b0a4458ef86f",
+                      "parentUUID": "23a0a50d-3114-4e5c-a3db-d5f2ebbfa625",
+                      "isHook": false,
+                      "skipped": false
+                    },
+                    {
+                      "title": "should throw an error when the array has a non number",
+                      "fullTitle": "isNumberEven tests getEvenNumbersFromArray method negative tests should throw an error when the array has a non number",
+                      "timedOut": false,
+                      "duration": 1,
+                      "state": "passed",
+                      "speed": "fast",
+                      "pass": true,
+                      "fail": false,
+                      "pending": false,
+                      "context": null,
+                      "code": "arraysWithNonNumberEl.forEach((invalidArray) => {\n  expect(() => {\n    validator.getEvenNumbersFromArray(invalidArray);\n  }).to.throw(`[${invalidArray}] is not an array of \"Numbers\"`);\n});",
+                      "err": {},
+                      "uuid": "7534c711-8d9c-4be7-87a3-acbeb13a33aa",
+                      "parentUUID": "23a0a50d-3114-4e5c-a3db-d5f2ebbfa625",
+                      "isHook": false,
+                      "skipped": false
+                    }
+                  ],
+                  "suites": [],
+                  "passes": [
+                    "8a994ce6-d708-4ca9-9fc2-b0a4458ef86f",
+                    "7534c711-8d9c-4be7-87a3-acbeb13a33aa"
+                  ],
+                  "failures": [],
+                  "pending": [],
+                  "skipped": [],
+                  "duration": 1,
+                  "root": false,
+                  "rootEmpty": false,
+                  "_timeout": 2000
+                }
+              ],
+              "passes": [],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 0,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "47b00fa9-747b-4a97-8e9c-d365f96beea7",
               "title": "isAllNumbers method",
               "fullFile": "C:\\Users\\Vira\\Documents\\QA\\EPAM\\epam-js-tests\\test\\numbers-validator\\isNumberEven.spec.js",
               "file": "\\test\\numbers-validator\\isNumberEven.spec.js",
@@ -450,7 +450,7 @@
               "tests": [],
               "suites": [
                 {
-                  "uuid": "13cdb813-f507-40f6-9875-9b09a918c29d",
+                  "uuid": "c37659b2-0ece-4f31-a916-a2eb918940e6",
                   "title": "positive tests",
                   "fullFile": "C:\\Users\\Vira\\Documents\\QA\\EPAM\\epam-js-tests\\test\\numbers-validator\\isNumberEven.spec.js",
                   "file": "\\test\\numbers-validator\\isNumberEven.spec.js",
@@ -461,35 +461,35 @@
                       "title": "should return true if all elements in array are numbers",
                       "fullTitle": "isNumberEven tests isAllNumbers method positive tests should return true if all elements in array are numbers",
                       "timedOut": false,
-                      "duration": 1,
+                      "duration": 0,
                       "state": "passed",
                       "speed": "fast",
                       "pass": true,
                       "fail": false,
                       "pending": false,
                       "context": null,
-                      "code": "const validationResults = validator.isAllNumbers([1,2,3,5,6,7,8]);\nexpect(validationResults).to.be.equal(true);",
+                      "code": "const validationResults = validator.isAllNumbers([1, 2, 3, 5, 6, 7, 8]);\nexpect(validationResults).to.be.equal(true);",
                       "err": {},
-                      "uuid": "346c4832-4ab3-4067-85ae-c90856209c11",
-                      "parentUUID": "13cdb813-f507-40f6-9875-9b09a918c29d",
+                      "uuid": "274beae7-0638-49b7-bd75-415a6b7f10c1",
+                      "parentUUID": "c37659b2-0ece-4f31-a916-a2eb918940e6",
                       "isHook": false,
                       "skipped": false
                     }
                   ],
                   "suites": [],
                   "passes": [
-                    "346c4832-4ab3-4067-85ae-c90856209c11"
+                    "274beae7-0638-49b7-bd75-415a6b7f10c1"
                   ],
                   "failures": [],
                   "pending": [],
                   "skipped": [],
-                  "duration": 1,
+                  "duration": 0,
                   "root": false,
                   "rootEmpty": false,
                   "_timeout": 2000
                 },
                 {
-                  "uuid": "cdbb710b-2273-4387-9455-e376bb974533",
+                  "uuid": "f7bc7bd5-eb06-4efb-ad8e-d69b2a939702",
                   "title": "negative tests",
                   "fullFile": "C:\\Users\\Vira\\Documents\\QA\\EPAM\\epam-js-tests\\test\\numbers-validator\\isNumberEven.spec.js",
                   "file": "\\test\\numbers-validator\\isNumberEven.spec.js",
@@ -507,10 +507,10 @@
                       "fail": false,
                       "pending": false,
                       "context": null,
-                      "code": "for (const notArray of invalidArrays){\n    expect(() => {\n        validator.isAllNumbers(notArray);\n    }).to.throw(`[${notArray}] is not an array`)\n}",
+                      "code": "invalidArrays.forEach((notArray) => {\n  expect(() => {\n    validator.isAllNumbers(notArray);\n  }).to.throw(`[${notArray}] is not an array`);\n});",
                       "err": {},
-                      "uuid": "9402179a-eb17-44b1-a5e0-76e989f012fc",
-                      "parentUUID": "cdbb710b-2273-4387-9455-e376bb974533",
+                      "uuid": "af90c0ff-8520-4594-9b7c-bc4fff2c7af7",
+                      "parentUUID": "f7bc7bd5-eb06-4efb-ad8e-d69b2a939702",
                       "isHook": false,
                       "skipped": false
                     },
@@ -525,18 +525,18 @@
                       "fail": false,
                       "pending": false,
                       "context": null,
-                      "code": "for (const invalidArray of arraysWithNonNumberEl){\n            expect(validator.isAllNumbers(invalidArray)).to.be.equal(false);\n        }",
+                      "code": "arraysWithNonNumberEl.forEach((invalidArray) => {\n  expect(validator.isAllNumbers(invalidArray)).to.be.equal(false);\n});",
                       "err": {},
-                      "uuid": "bb44a51e-4740-4040-b058-c24bae45585a",
-                      "parentUUID": "cdbb710b-2273-4387-9455-e376bb974533",
+                      "uuid": "c62d8fbb-f622-4edd-b975-dcb6bef671ca",
+                      "parentUUID": "f7bc7bd5-eb06-4efb-ad8e-d69b2a939702",
                       "isHook": false,
                       "skipped": false
                     }
                   ],
                   "suites": [],
                   "passes": [
-                    "9402179a-eb17-44b1-a5e0-76e989f012fc",
-                    "bb44a51e-4740-4040-b058-c24bae45585a"
+                    "af90c0ff-8520-4594-9b7c-bc4fff2c7af7",
+                    "c62d8fbb-f622-4edd-b975-dcb6bef671ca"
                   ],
                   "failures": [],
                   "pending": [],

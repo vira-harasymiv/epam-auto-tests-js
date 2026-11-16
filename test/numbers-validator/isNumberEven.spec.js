@@ -20,7 +20,7 @@ describe('isNumberEven tests', () => {
     validator = null;
   });
 
-  //Tests for the 'isNumberEven method'
+  // Tests for the 'isNumberEven method'
   describe('isNumberEven method', () => {
     describe('positive tests', () => {
       // Checks if the method returns true if the number is even
@@ -40,15 +40,15 @@ describe('isNumberEven tests', () => {
       // Checks if the method throws the error if the number is not a number
       it('should throw an error when provided not a number value', () => {
         arrayOfNotNumbers.forEach((notNumber) => {
-            expect(() => {
-                validator.isNumberEven(notNumber);
-            }).to.throw(`[${notNumber}] is not of type "Number" it is of type "${typeof notNumber}"`);    
-        })
+          expect(() => {
+            validator.isNumberEven(notNumber);
+          }).to.throw(`[${notNumber}] is not of type "Number" it is of type "${typeof notNumber}"`);
+        });
       });
     });
   });
 
-  //Tests for the 'isInteger" method
+  // Tests for the 'isInteger" method
   describe('isInteger method', () => {
     describe('positive tests', () => {
       // Checks if the method returns true if the number is an integer
@@ -67,10 +67,10 @@ describe('isNumberEven tests', () => {
 
       it('should throw an error if a number is not a number', () => {
         arrayOfNotNumbers.forEach((notNumber) => {
-            expect(() => {
+          expect(() => {
             validator.isInteger(notNumber);
           }).to.throw(`[${notNumber}] is not a number`);
-        })
+        });
       });
     });
   });
@@ -94,7 +94,7 @@ describe('isNumberEven tests', () => {
       // Checks if the method throws the error if the argument is not an array
       it('should throw an error when provided not an array', () => {
         invalidArrays.forEach((notArray) => {
-        expect(() => {
+          expect(() => {
             validator.getEvenNumbersFromArray(notArray);
           }).to.throw(`[${notArray}] is not an array of "Numbers"`);
         });
@@ -103,7 +103,7 @@ describe('isNumberEven tests', () => {
       // Checks if the method throws the error when the array has non number
       it('should throw an error when the array has a non number', () => {
         arraysWithNonNumberEl.forEach((invalidArray) => {
-        expect(() => {
+          expect(() => {
             validator.getEvenNumbersFromArray(invalidArray);
           }).to.throw(`[${invalidArray}] is not an array of "Numbers"`);
         });
@@ -124,17 +124,17 @@ describe('isNumberEven tests', () => {
       // Checks if the method throws the error when the array is not an array
       it('should throw an error when provided not an array', () => {
         invalidArrays.forEach((notArray) => {
-            expect(() => {
+          expect(() => {
             validator.isAllNumbers(notArray);
           }).to.throw(`[${notArray}] is not an array`);
-        })
+        });
       });
 
       // Checks if the method returns false when the array has non number
       it('should return false when the array has a non number', () => {
         arraysWithNonNumberEl.forEach((invalidArray) => {
-        expect(validator.isAllNumbers(invalidArray)).to.be.equal(false);
-        })
+          expect(validator.isAllNumbers(invalidArray)).to.be.equal(false);
+        });
       });
     });
   });
