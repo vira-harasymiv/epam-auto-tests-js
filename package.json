@@ -4,7 +4,8 @@
   "description": "practical tasks",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "coverage": "c8 npm test"
   },
   "keywords": [],
   "author": "Vira Harasymiv",
