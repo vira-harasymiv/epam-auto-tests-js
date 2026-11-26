@@ -27,22 +27,18 @@ describe('Our Core Services section tests', () => {
   });
 
   it('stratey button should change color on hover from black to white', async () => {
-    async () => {
-      await pages('services')
-        .ourCoreServicesSection.buttons('strategy')
-        .waitForClickable();
-      await haveBackgroundColor(
-        pages('services').ourCoreServicesSection.buttons('strategy'),
-        '#060606',
-      );
-      await pages('services')
-        .ourCoreServicesSection.buttons('strategy')
-        .moveTo();
-      await haveBackgroundColor(
-        pages('services').ourCoreServicesSection.buttons('strategy'),
-        '#ffffff',
-      );
-    };
+    await pages('services')
+      .ourCoreServicesSection.buttons('strategy')
+      .waitForClickable();
+    await haveBackgroundColor(
+      pages('services').ourCoreServicesSection.buttons('strategy'),
+      '#060606',
+    );
+    await pages('services').ourCoreServicesSection.buttons('strategy').moveTo();
+    await haveBackgroundColor(
+      pages('services').ourCoreServicesSection.buttons('strategy'),
+      '#ffffff',
+    );
   });
 
   // for (const button of buttons) {
