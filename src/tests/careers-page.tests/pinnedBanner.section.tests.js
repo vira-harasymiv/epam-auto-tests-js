@@ -47,11 +47,9 @@ describe('Pinned banner tests', () => {
       'pinned',
     );
     await pages('careers').scrollToTop();
-    await pages('careers').pinnedBanner.rootEl.not.waitForDisplayed({
-      timeout: 30_000,
-    });
     await expect(pages('careers').pinnedBanner.rootEl).not.toHaveElementClass(
       'pinned',
+      { timeout: 30_000 },
     );
   });
 });
