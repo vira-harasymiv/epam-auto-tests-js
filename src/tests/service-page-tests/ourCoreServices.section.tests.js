@@ -1,5 +1,6 @@
 const { pages } = require('./../../po/pages');
 const { haveBackgroundColor } = require('../../config/utils/expect.helpers');
+const ourCoreServicesSectionData = require('./testData/ourCoreServices.section');
 
 describe('Our Core Services section tests', () => {
   const buttons = [
@@ -21,7 +22,7 @@ describe('Our Core Services section tests', () => {
   it.skip('title should be - Our Core Services', async () => {
     await pages('services').ourCoreServicesSection.title.waitForDisplayed();
     await expect(pages('services').ourCoreServicesSection.title).toHaveText(
-      'Our Core Services',
+      ourCoreServicesSectionData.title,
     );
   });
 
