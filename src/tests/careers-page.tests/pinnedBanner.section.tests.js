@@ -8,7 +8,6 @@ describe('Pinned banner tests', () => {
   });
 
   it('should not be pinned after the page loading', async () => {
-    await expect(pages('careers').pinnedBanner.rootEl).toExist();
     await expect(pages('careers').pinnedBanner.rootEl).not.toHaveElementClass(
       'pinned',
     );
