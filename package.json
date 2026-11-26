@@ -4,7 +4,8 @@
   "description": "practical tasks",
   "private": true,
   "scripts": {
-    "test": "wdio run ./src/config/wdio.conf.js"
+    "test": "wdio run ./src/config/wdio.conf.js",
+    "allure": "allure generate allure-results --clean --single-file -o allure-report"
   },
   "author": "Vira Harasymiv",
   "license": "ISC",
