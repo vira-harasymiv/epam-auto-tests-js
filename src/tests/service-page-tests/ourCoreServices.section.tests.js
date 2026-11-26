@@ -2,6 +2,16 @@ const { pages } = require('./../../po/pages');
 const { haveBackgroundColor } = require('../../config/utils/expect.helpers');
 
 describe('Our Core Services section tests', () => {
+  const buttons = [
+    'strategy',
+    'engineering',
+    'cloud',
+    'cybersecurity',
+    'dataAndAnalytics',
+    'cx',
+    'artificialIntelligence',
+  ];
+
   beforeEach(async () => {
     await pages('services').open();
     await pages('services').acceptCookies();
@@ -14,17 +24,8 @@ describe('Our Core Services section tests', () => {
     );
   });
 
-  it('buttons should change color on hover from black to white', async () => {
-    const buttons = [
-      'strategy',
-      'engineering',
-      'cloud',
-      'cybersecurity',
-      'dataAndAnalytics',
-      'cx',
-      'artificialIntelligence',
-    ];
-    for (const button of buttons) {
+  for (const button of buttons) {
+    it(`${button} should change color on hover from black to white`, async () => {
       await pages('services')
         .ourCoreServicesSection.buttons(button)
         .waitForClickable();
@@ -37,6 +38,6 @@ describe('Our Core Services section tests', () => {
         pages('services').ourCoreServicesSection.buttons(button),
         '#ffffff',
       );
-    }
-  });
+    });
+  }
 });
