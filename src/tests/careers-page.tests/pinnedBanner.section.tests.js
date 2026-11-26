@@ -1,4 +1,4 @@
-const { pages } = require('./../../po/pages');
+const { pages } = require('../../po/pages');
 const { openedUrlContainsText } = require('../../config/utils/expect.helpers');
 
 describe('Pinned banner tests', () => {
