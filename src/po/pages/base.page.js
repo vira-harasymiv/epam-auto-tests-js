@@ -28,7 +28,7 @@ class BasePage {
   // Checks if cookies appear: return true if they appear and false if don't
   async isDisplayedCookies() {
     try {
-      await this.cookieBanner.rootEl.waitForDisplayed({ timeout: 5_000 });
+      await this.cookieBanner.rootEl.waitForDisplayed();
       return true;
     } catch {
       return false;
