@@ -12,15 +12,13 @@ describe('Main section tests', () => {
     await expect(pages('about').mainSection.title).toHaveText('About');
   });
 
-  it.skip('skipped due to cloudflare')(
-    'should be correct description',
-    async () => {
-      await pages('about').mainSection.description.waitForDisplayed();
-      await expect(pages('about').mainSection.description).toHaveText(
-        'We can help you reimagine your business through a digital lens. Our software engineering heritage combined with our strategic business and innovation consulting, design thinking, and physical-digital capabilities provide real business value to our customers through human-centric innovation.',
-      );
-    },
-  );
+  //Skipped due to the cloudflare
+  it.skip('should be correct description', async () => {
+    await pages('about').mainSection.description.waitForDisplayed();
+    await expect(pages('about').mainSection.description).toHaveText(
+      'We can help you reimagine your business through a digital lens. Our software engineering heritage combined with our strategic business and innovation consulting, design thinking, and physical-digital capabilities provide real business value to our customers through human-centric innovation.',
+    );
+  });
 
   it('contact us button should lead to the Contact Us page', async () => {
     await pages('about').mainSection.contactUsBtn.waitForClickable();
