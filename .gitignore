@@ -2,3 +2,5 @@ node_modules
 artifacts
 allure-results
 allure-report
+coverage
+mochawesome-report
