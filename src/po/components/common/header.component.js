@@ -25,4 +25,4 @@ class HeaderComponent extends BaseComponent {
   }
 }
 
-modules.exports = HeaderComponent;
+module.exports = HeaderComponent;
